@@ -1,0 +1,80 @@
+* { 
+    margin:0;
+    padding:0;
+  }
+  a:link, a:visited, a:hover, a:active {
+    color:#0f0;
+    font-size:16px;
+  }
+  body {
+    background:#eee;
+    font-family:verdana;
+  }
+  h1 {
+    color:rgb(0, 0, 0);
+    font-size:24px;
+  }
+  p {
+    font-size:16px;
+  }
+  ul {
+    list-style-type:none;
+  }
+  #contenedor {
+    margin:0 auto;
+    width:800px;
+  }
+  #contenido {
+  
+    float:left;
+    height:9%;
+    padding:10px;
+    width:75%;
+  }
+  #menu {
+    background-color:#999;
+    float:left;
+    height: 1588px;
+    padding:2rem;
+    width:15rem;
+  }
+  #pie { 
+    background-color:#bbb;
+    clear:both;
+    color:#900;
+    padding:10px;
+    text-align:center;
+  }
+  #main-header {       
+    /* Enable flex mode. */
+    display: flex; 
+    /* Spread out the elements inside the header. */
+    justify-content: space-between;
+    /* Align items vertically in the center. */
+    align-items: center;
+  }	
+  #main-header a {
+    color: white;
+  }
+    #pre25 {
+      display: block;
+      font-family: monospace;
+      white-space: pre;
+      margin: 1em 0;
+    }
+    pre{
+      font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
+      margin-bottom: 10px;
+      overflow: auto;
+      width: auto;
+      padding: 5px;
+      background-color: rgb(235, 234, 184);
+      width: 650px;
+      padding-bottom: 20px!;
+      max-height: 600px;
+    }
+
+    #img{
+      width: 650px;
+      max-height: 600px;
+    }
